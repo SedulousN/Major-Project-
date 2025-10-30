@@ -1,0 +1,41 @@
+ai-security-project/
+├── attacks/
+│   ├── adversarial_attacks.py      # FGSM, PGD implementations
+│   ├── membership_inference.py     # Privacy attack
+│   ├── model_extraction.py         # Model stealing
+│   ├── trojan_attack.py           # Backdoor injection
+│   └── jailbreaks.py              # Your existing work
+│
+├── defenses/
+│   ├── adversarial_training.py    # Robust training
+│   ├── input_preprocessing.py     # Image transformations
+│   ├── detection.py               # Adversarial detection
+│   └── backdoor_detection.py      # Trojan detection
+│
+├── models/
+│   ├── simple_cnn.py              # Basic CNN architecture
+│   ├── resnet.py                  # ResNet variants
+│   └── trained_models/            # Saved model weights
+│
+├── experiments/
+│   ├── run_attacks.py             # Main attack experiments
+│   ├── run_defenses.py            # Defense evaluations
+│   ├── benchmark.py               # Comparative analysis
+│   └── results/                   # Experiment results
+│
+├── notebooks/
+│   ├── 01_adversarial_examples.ipynb
+│   ├── 02_membership_inference.ipynb
+│   ├── 03_model_extraction.ipynb
+│   ├── 04_trojan_attacks.ipynb
+│   └── 05_defense_comparison.ipynb
+│
+├── data/                          # Downloaded datasets
+├── visualizations/                # Generated plots
+├── docs/
+│   ├── report.pdf                # Project report
+│   └── presentation.pptx         # Presentation slides
+│
+├── main.py                       # Main demonstration script
+├── requirements.txt
+└── README.md
